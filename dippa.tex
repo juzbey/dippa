@@ -257,14 +257,14 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place).
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{Software Processes for Dummies:}
-\newcommand{\FTITLE}{Ohjelmistoprosessit mänteille:}
+\newcommand{\TITLE}{Implementation of rolling forecast and planning system – Implications for the management system}
+\newcommand{\FTITLE}{Rullaavan suunnittelun käyttöönotto ja haasteet johtamisjärjestelmän kannalta}
 \newcommand{\STITLE}{Den stora stygga vargen:}
 \newcommand{\SUBTITLE}{Re-inventing the Wheel}
 \newcommand{\FSUBTITLE}{Uusi organisaatio, uudet pyörät}
 \newcommand{\SSUBTITLE}{Lilla Vargens universum}
-\newcommand{\DATE}{June 18, 2011}
-\newcommand{\FDATE}{18. kesäkuuta 2011}
+\newcommand{\DATE}{February 20, 2013}
+\newcommand{\FDATE}{20.2.2013}
 \newcommand{\SDATE}{Den 18 Juni 2011}
 
 % Supervisors and instructors
@@ -279,16 +279,14 @@
 %\newcommand{\FSUPERVISOR}{Professori Antti Ylä-Jääski}
 %\newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski}
 % Example of twosupervisors:
-\newcommand{\SUPERVISOR}{Professor Antti Ylä-Jääski\\
-  Professor Pekka Perustieteilijä}
-\newcommand{\FSUPERVISOR}{Professori Antti Ylä-Jääski\\
-  Professori Pekka Perustieteilijä}
+\newcommand{\SUPERVISOR}{Professor Ilkka Kauranen}
+\newcommand{\FSUPERVISOR}{Professori Ilkka Kauranen}
 \newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski\\
   Professor Pekka Perustieteilijä}
 
 % If you have only one instructor, just write one name here
-\newcommand{\INSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.)}
-\newcommand{\FINSTRUCTOR}{Diplomi-insinööri Olli Ohjaaja}
+\newcommand{\INSTRUCTOR}{Master of Economics Jarno Jahnukainen}
+\newcommand{\FINSTRUCTOR}{Taloustieteiden maisteri Jarno Jahnukainen}
 \newcommand{\SINSTRUCTOR}{Diplomingenjör Olli Ohjaaja}
 % If you have two instructors, separate them with \\ to create linefeeds
 % \newcommand{\INSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.)\\
@@ -302,8 +300,7 @@
 % of the supervisors in the cover page. If the following command is defined,
 % then the supervisor names shown here are printed in the cover page. Otherwise,
 % the supervisor names defined above are used.
-\newcommand{\COVERSUPERVISOR}{Professor Antti Ylä-Jääski, Aalto University\\
-  Professor Pekka Perustieteilijä, University of Helsinki}
+%\newcommand{\COVERSUPERVISOR}{Professor Ilkka Kauranen, Aalto University}
 
 % The same option is for the instructors, if you have multiple instructors.
 % \newcommand{\COVERINSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.), Aalto University\\
@@ -312,23 +309,21 @@
 
 % Other stuff
 % ------------------------------------------------------------------
-\newcommand{\PROFESSORSHIP}{Data Communication Software}
-\newcommand{\FPROFESSORSHIP}{Tietoliikenneohjelmistot}
+\newcommand{\PROFESSORSHIP}{Knowledge intensive business}
+\newcommand{\FPROFESSORSHIP}{Tietointensiivinen liiketoiminta}
 \newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
-\newcommand{\PROFCODE}{T-110}
-\newcommand{\KEYWORDS}{ocean, sea, marine, ocean mammal, marine mammal, whales,
-cetaceans, dolphins, porpoises}
-\newcommand{\FKEYWORDS}{AEL, aineistot, aitta, akustiikka, Alankomaat,
-aluerakentaminen, Anttolanhovi, Arcada, ArchiCad, arkki}
+\newcommand{\PROFCODE}{T3008}
+\newcommand{\KEYWORDS}{budgeting, forecasting, rolling forecasting, planning, management system, management control system, management controls}
+\newcommand{\FKEYWORDS}{budjetointi, ennustaminen, rullaava suunnittelu, johtamisjärjestelmä, johdon ohjausjärjestelmä, johdon ohjauskeinot}
 \newcommand{\SKEYWORDS}{omsättning, kassaflöde, värdepappersmarknadslagen,
 yrkesutövare, intresseföretag, verifieringskedja}
-\newcommand{\LANGUAGE}{English}
-\newcommand{\FLANGUAGE}{Englanti}
+\newcommand{\LANGUAGE}{Finnish}
+\newcommand{\FLANGUAGE}{Suomi}
 \newcommand{\SLANGUAGE}{Engelska}
 
 % Author is the same for all languages
-\newcommand{\AUTHOR}{Stella Student}
+\newcommand{\AUTHOR}{Jussi Juvonen}
 
 
 % Currently the English versions are used for the PDF file metadata
@@ -354,8 +349,8 @@ yrkesutövare, intresseföretag, verifieringskedja}
 
 % If you write your thesis Finnish, uncomment these lines; if
 % you write in English, leave these lines commented!
-% \setlength{\parindent}{0pt}
-% \setlength{\parskip}{1ex}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
 
 % Use this to control how much space there is between each line of text.
 % 1 is normal (no extra space), 1.3 is about one-half more space, and
@@ -400,8 +395,7 @@ yrkesutövare, intresseföretag, verifieringskedja}
 % ------------------------------------------------------------------
 % Options: finnish, english, and swedish
 % These control in which language the cover-page information is shown
-\coverpage{english}
-
+\coverpage{finnish}
 
 % Abstracts
 % ------------------------------------------------------------------
@@ -411,30 +405,7 @@ yrkesutövare, intresseföretag, verifieringskedja}
 % Abstract in English
 % ------------------------------------------------------------------
 \thesisabstract{english}{
-A dissertation or thesis is a document submitted in support of candidature
-for a degree or professional qualification presenting the author's research and
-findings. In some countries/universities, the word thesis or a cognate is used
-as part of a bachelor's or master's course, while dissertation is normally
-applied to a doctorate, whilst, in others, the reverse is true.
-
-\fixme{Abstract text goes here (and this is an example how to use fixme).}
-Fixme is a command that helps you identify parts of your thesis that still
-require some work. When compiled in the custom \texttt{mydraft} mode, text
-parts tagged with fixmes are shown in bold and with fixme tags around them. When
-compiled in normal mode, the fixme-tagged text is shown normally (without
-special formatting). The draft mode also causes the ``Draft'' text to appear on
-the front page, alongside with the document compilation date. The custom
-\texttt{mydraft} mode is selected by the \texttt{mydraft} option given for the
-package \texttt{aalto-thesis}, near the top of the \texttt{thesis-example.tex}
-file.
-
-The thesis example file (\texttt{thesis-example.tex}), all the chapter content
-files (\texttt{1introduction.tex} and so on), and the Aalto style file
-(\texttt{aalto-thesis.sty}) are commented with explanations on how the Aalto
-thesis works. The files also contain some examples on how to customize various
-details of the thesis layout, and of course the example text works as an
-example in itself. Please read the comments and the example text; that should
-get you well on your way!}
+This study focuses on the implementation of the rolling forecast and planning process of the case company.  The main emphasis is on the relationship between the rolling planning process and the management system of the company. The objective of this study is to offer concrete recommendations in order to facilitate the implementation of the rolling planning in the case company. The methodologies used in this study include a literature study accompanied by the empirical interviews. First basing on the literature, the relationship between rolling planning and management systems is conceptualized. Also the main characteristics of rolling forecasting and planning and their use are studied. In the empirical part of the study, internal documentation is used to describe the new planning process and interviews were conducted in order to capture the management’s current understanding of the subject. Particularly, the interviews focused on the outlook for the implementation of the rolling forecast and planning process and its implications for the management system. The findings of this study are based on a rigorous analysis of the literature and the data acquired from the interviews. As findings, a set of concrete recommendations are offered in order to facilitate the implementation of rolling planning process. The most important recommendations are as follows: Continuing the systematic integration of the rolling planning process and the management system. Bringing up the benefits of the rolling planning even more emphatically than before. Clarifying the rolling planning process for different parties. Developing reward and compensation methods that support rolling planning process. Boosting the intencives for making the rolling planning as a part of the daily routine. Developing even more flexible reporting possibilities. Adjusting the relationship of the target setting between rolling planning and balanced scorecards. The given recommendations encapsulate the current collective understanding in the case company. By following these, the implementation of the rolling forecast and planning process can be facilitated.}
 
 % Abstract in Finnish
 % ------------------------------------------------------------------
